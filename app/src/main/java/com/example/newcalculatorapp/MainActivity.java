@@ -38,6 +38,13 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(ob3);
             }
         });
+        b3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent ob5=new Intent(getApplicationContext(), MultiplicationActivity.class);
+                startActivity(ob5);
+            }
+        });
 
     }
 }
